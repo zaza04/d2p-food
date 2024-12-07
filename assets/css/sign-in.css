@@ -1,0 +1,153 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.container .form {
+    padding: 50px;
+    background: #fff;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 15px; 
+    text-align: center;
+    position: relative;
+    border-radius: 10px;
+    width: 575px;
+    height: auto;
+}
+
+.container .form .inner-logo {
+    width: 130px;
+    height: auto;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.container .form .inner-logo img {
+    width: 150px;
+    height: 80px;
+    object-fit: cover;
+}
+
+.container .form .sign-in-title {
+    margin-bottom: 20px;
+    font-size: 28px;
+    font-weight: 500;
+    color: #000;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.container .form .inner-desc {
+    text-align: left;
+    margin-bottom: 10px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-weight: 500;
+    color: #696969;
+}
+
+.form .input {
+    margin: 40px 0;
+}
+
+.form .input .user,
+.form .input .password {
+    border: none;
+    outline: none;
+    width: 100%;
+    padding-bottom: 5px;
+    border-bottom: solid 1px #ddd;
+    transition: all .30s ease-in-out;
+    font-size: 16px;
+}
+
+.form .input .user {
+    margin-top: 20px;
+}
+
+.form .input .user:focus, 
+.form .input .password:focus {
+    border-bottom: solid 1px #000;
+}
+
+.form .input .user:focus::placeholder, 
+.form .input .password:focus::placeholder {
+    color: #000;
+}
+
+/* 
+.container .inner-img {
+    overflow: hidden;
+    border-bottom-right-radius: 45px;
+    border-top-right-radius: 45px;
+    width: 475px;
+    height: 570px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 15px;
+    object-fit: cover;
+}
+
+.container .inner-img img {
+    width: 475px;
+    height: 570px;
+}
+
+.container .inner-img img {
+    transition: all .30s ease-in-out;
+}
+
+.container .inner-img img:hover {
+    transform: scale(1.1);
+    overflow: hidden;
+} */
+
+.form .button {
+    margin-top: 10px;
+    outline: none;
+    border: none;
+    font-size: 17px;
+    background: #B5292F;
+    color: #fff;
+    padding: 15px 20px;
+    border-radius: 45px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: all .30s ease;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.form .button:hover {
+    background: #ddd;
+    color: #000;
+}
+
+.form .auth-action {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.form .auth-action .sign-up {
+   font-size: 16px;
+}
+
+.form .auth-action .sign-up span {
+    cursor: pointer;
+    color: #B5292F;
+    transition: .3s ease;
+}
+
+.form .auth-action .sign-up span:hover {
+    text-decoration: underline;
+}
+
+.form .forget-password a {
+    color: #B5292F;
+    font-size: 16px;
+    transition: .3s ease;
+}
+
+.form .forget-password a:hover {
+    text-decoration: underline;
+}
