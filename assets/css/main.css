@@ -678,4 +678,9 @@
     font-weight: 400;
     letter-spacing: 1.1px;
 }
+
+.footer-bottom span {
+    font-weight: 500;
+    color: #777;
+}
 /* END FOOTER */
